@@ -1,0 +1,23 @@
+[ui]
+username = Matthew Everett <matthew.everett@webfilings.com>
+editor = vim
+
+ignore=~/.hgignore_global
+
+[diff]
+git = True
+
+[extensions]
+hgext.convert =
+hgext.graphlog =
+bookmarks =
+rebase = 
+mq = 
+
+[web]
+cacerts = /etc/hg-dummy-cert.pem
+
+[extdiff]
+cmd.sourcetreediff=opendiff
+opts.sourcetreediff=
+

@@ -1,0 +1,32 @@
+[user]
+	name = Matthew Everett
+	email = matthew.everett@webfilings.com
+
+[core]
+	excludesfile = /Users/mattheweverett/.gitignore_global
+    autocrlf = input
+    editor = vim
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+  st = status
+  di = diff
+  co = checkout
+  ci = commit
+  br = branch
+  sta = stash
+  an = annotate
+
+[push]
+    default = tracking
+
+[merge]
+    tool = vimdiff
+
+[tig]
+    line-number-interval = 1
+
